@@ -1,0 +1,35 @@
+
+.cartao-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cartao{
+  background-color: #686AAC;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 700px;
+  padding: 10px;
+}
+
+.cartao h1{
+  word-break: break-all;
+  text-align: center;
+}
+
+.cartao img{
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+.cartao p{
+  text-align: center;
+}
+
+.cartao a{
+  text-align: center;
+  display: block;
+}
