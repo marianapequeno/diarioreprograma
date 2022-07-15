@@ -1,5 +1,6 @@
 
 .cartao-container{
+  padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -8,6 +9,7 @@
 
 .cartao{
   background-color: #686AAC;
+  color: #ffffff;
   text-transform: uppercase;
   border-radius: 10px;
   width: 700px;
@@ -29,7 +31,28 @@
   text-align: center;
 }
 
-.cartao a{
+.cartao a, .cartao-other a{
+  background-color: #ffffff;
+  color: #686AAC;
+  text-decoration: none;
   text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
   display: block;
+  transition: filter 0.2s;
+}
+
+.cartao a:hover, .cartao-other a:hover{
+  filter: brightness(0.9);
+}
+
+.cartao-other{
+  background-color: #686AAC;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
 }
