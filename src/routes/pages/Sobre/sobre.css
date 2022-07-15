@@ -1,0 +1,14 @@
+
+.title-2, .paragraph{
+  color: #686AAC;
+}
+
+.title-2{
+  text-align: center;
+}
+
+.paragraph{
+  text-align: justify;
+  width: 60ch;
+  margin: 0 auto;
+}
