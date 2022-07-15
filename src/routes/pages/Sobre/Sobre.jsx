@@ -1,4 +1,4 @@
-
+import './sobre.css'
 
 function Sobre() {
   return (

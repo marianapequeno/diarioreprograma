@@ -49,8 +49,8 @@ function Comentarios() {
         Dicas, feedbacks e mensagens do coração
       </Header>
 
-      <section className="list">
-        <header>
+      <main className="list">
+        <section>
           <div className="input-container">
             <input
               type="text"
@@ -69,9 +69,9 @@ function Comentarios() {
             </div>
 
           </div>
-        </header>
+        </section>
 
-        <main>
+        <section>
           <ul className="list-items">
             {
               list.map(item => {
@@ -88,8 +88,8 @@ function Comentarios() {
               })
             }
           </ul>
-        </main>
-      </section>
+        </section>
+      </main>
     </>
   )
 }

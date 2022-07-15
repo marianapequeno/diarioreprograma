@@ -85,33 +85,34 @@ function Portifolio() {
         Meus Projetos
       </Header>
 
-      <div className="cartao-container">
-        {list.map(projeto =>{
-          return(
-            <div className="cartao" key={projeto.id}>
-              <h1>{projeto.name}</h1>
-              <img src={projeto.image} alt={projeto.image}/>
-              <p>{projeto.description}</p>
-              <a href={projeto.html_url} className="enter-repo" target="_blank">Veja este repositório</a>
-            </div>  
-          )
-          })
-        }
-      </div>
-
-      <div className="cartao-container">
-        {
-          repos.map(repo => {
+      <main>
+        <section className="cartao-container">
+          {list.map(projeto =>{
             return(
-              <div className="cartao-other" key={repo.id}>
-                <h3>{repo.name}</h3>
-                <p>{repo.description}</p>
-                <a href={repo.html_url} target="_blank">Veja esse repositório</a>
-              </div>  
+              <div className="cartao" key={projeto.id}>
+                <h1>{projeto.name}</h1>
+                <img src={projeto.image} alt={projeto.image}/>
+                <p>{projeto.description}</p>
+                <a href={projeto.html_url} className="enter-repo" target="_blank">Veja este repositório</a>
+              </div>
             )
-          })
-        }
-      </div>
+            })
+          }
+        </section>
+        <section className="cartao-container">
+          {
+            repos.map(repo => {
+              return(
+                <div className="cartao-other" key={repo.id}>
+                  <h3>{repo.name}</h3>
+                  <p>{repo.description}</p>
+                  <a href={repo.html_url} target="_blank">Veja esse repositório</a>
+                </div>
+              )
+            })
+          }
+        </section>
+      </main>
     </>
   )
 }
