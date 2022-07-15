@@ -1,10 +1,20 @@
 import './sobre.css'
+import Header from '../../componentes/Header/Header'
+import image from '../../../assets/blooming.svg'
 
 function Sobre() {
   return (
-    <h1>
-      Sobre
-    </h1>
+    <>
+      <Header 
+        image={image} 
+        description="Ilustração sobre mim"
+      >
+        Sobre
+      </Header>
+      <main>
+        Sobre
+      </main>
+    </>
   )
 }
 

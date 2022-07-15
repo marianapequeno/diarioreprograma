@@ -6,6 +6,7 @@ import Portifolio from './pages/Portifolio/Portifolio'
 import Diario from './pages/Diario/Diario'
 import Comentarios from './pages/Comentarios/Comentarios'
 import Contato from './pages/Contato/Contato'
+import Footer from './componentes/Footer/Footer'
 
 function ApplicationRoutes(){
   return (
@@ -18,6 +19,7 @@ function ApplicationRoutes(){
         <Route path="comentarios" element={<Comentarios />}/>
         <Route path="contato" element={<Contato />}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
