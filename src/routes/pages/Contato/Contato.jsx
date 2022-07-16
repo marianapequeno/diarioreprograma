@@ -18,9 +18,9 @@ function Contato() {
             <h2>Contatos</h2>
           </div>
           <ul>
-            <li><a href="contato@contato.com.br">E-mail</a></li>
-            <li><a href="https://github.com/marianapequeno">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/marianapequeno">Linkedin</a></li>
+            <li><a href="contato@contato.com.br" target="_blank">E-mail</a></li>
+            <li><a href="https://github.com/marianapequeno" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/marianapequeno" target="_blank">Linkedin</a></li>
           </ul>
         </section>
         <section className="formulario">
