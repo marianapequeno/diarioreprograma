@@ -26,17 +26,17 @@ function Contato() {
         <section className="formulario">
           <h2>Envie sua mensagem</h2>
           <form name="contato">
-            <label name="nome">Nome</label>
-            <input type="text" name="nome" placeholder="Digite seu nome aqui"/>
+            <label htmlFor="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu nome aqui"/>
 
-            <label htmlFor="">Telefone</label>
-            <input type="text" placeholder="Digite seu telefone"/>
+            <label htmlFor="tel">Telefone</label>
+            <input type="tel" id="tel" placeholder="Digite seu telefone"/>
 
-            <label htmlFor="">E-mail</label>
-            <input type="text" placeholder="Digite seu e-mail"/>
+            <label htmlFor="email">E-mail</label>
+            <input type="email"id="email" placeholder="Digite seu e-mail"/>
 
-            <label htmlFor="">Mensagem</label>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <label htmlFor="message">Mensagem</label>
+            <textarea id="message" cols="30" rows="5"></textarea>
             <button type="enviar" className="btn">Enviar</button>
           </form>
         </section>

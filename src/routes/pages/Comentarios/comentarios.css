@@ -19,13 +19,13 @@ h2 {
   gap: 10px;
 }
 
-input {
+.input-container input {
   background: #fff;
   border: 0.5 solid #686AAC;
   padding: 12px 24px;
   border-radius: 8px;
   height: 100px;
-  width: 70%; 
+  width: 50%; 
 }
 
 button {

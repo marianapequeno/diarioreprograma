@@ -10,25 +10,28 @@
 .cartao{
   background-color: #686AAC;
   color: #ffffff;
-  text-transform: uppercase;
   border-radius: 10px;
-  width: 700px;
+  width: 600px;
   padding: 10px;
+  display: grid;
+  justify-items: center;
 }
 
-.cartao h1{
-  word-break: break-all;
+h1, h3{
   text-align: center;
+  text-transform: uppercase;
 }
 
+main h2, h2 a{
+  color: #686AAC;
+  text-decoration: none;
+}
+
+h2 a:hover{
+  text-decoration: underline;
+}
 .cartao img{
-  width: 500px;
-  margin: 0 auto;
-  display: block;
-}
-
-.cartao p{
-  text-align: center;
+  max-width: 400px;
 }
 
 .cartao a, .cartao-other a{
@@ -39,9 +42,15 @@
   border-radius: 10px;
   width: 200px;
   padding: 10px;
-  margin: 0 auto;
-  display: block;
   transition: filter 0.2s;
+}
+
+.cartao p, .cartao-other p{
+  text-align: center;
+}
+
+.cartao-other a{
+  align-self: flex-end;
 }
 
 .cartao a:hover, .cartao-other a:hover{
@@ -51,8 +60,16 @@
 .cartao-other{
   background-color: #686AAC;
   color: #ffffff;
-  text-transform: uppercase;
+  box-sizing: border-box;
   border-radius: 10px;
   width: 300px;
   padding: 10px;
+  display: grid;
+  justify-items: center;
+}
+
+@media(max-width: 500px){
+  header h1, main h2{
+    font-size: 1.5rem !important;
+  }
 }

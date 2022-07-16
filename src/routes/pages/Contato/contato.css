@@ -1,8 +1,13 @@
 
 .contacts{
+  background-color: #686AAC;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.contacts h2, .contacts a{
+  color: #ffffff;
 }
 
 h2{
@@ -15,12 +20,12 @@ h2{
 }
 
 .contacts li{
-  list-style: none;
-  margin: 5px;
+  color: #ffffff;
+  list-style: square;
+  margin: 10px;
 }
 
 .contacts a{
-  color: #686AAC;
   text-decoration: none;
   transition: filter 0.2s;
   padding: 5px;
@@ -45,9 +50,11 @@ form{
   gap: 10px;
 }
 
-input{
+.formulario input{
+  border: 2px solid; 
   width: 100%;
   height: 100%;
+  padding: 5px;
 }
 
 textarea{
@@ -58,6 +65,7 @@ textarea{
 }
 
 .btn{
+  cursor: pointer;
   grid-column: 2 / 3;
   background-color: #686AAC;
   width: 150px;

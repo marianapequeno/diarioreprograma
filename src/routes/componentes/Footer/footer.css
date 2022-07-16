@@ -10,5 +10,11 @@
 }
 .footer a{
   color: #b7b7b7;
+  text-decoration: none;
   padding: 5px;
+  transition: filter 0.2s;
+}
+
+.footer a:hover{
+  filter: brightness(0.9);
 }
