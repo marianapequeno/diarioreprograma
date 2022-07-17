@@ -18,25 +18,26 @@ function Contato() {
             <h2>Contatos</h2>
           </div>
           <ul>
-            <li><a href="contato@contato.com.br" target="_blank">E-mail</a></li>
+            <li><a href="mailto:contato@contato.com.br?subject=Contato" target="_blank" rel="external">E-mail</a></li>
             <li><a href="https://github.com/marianapequeno" target="_blank">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/marianapequeno" target="_blank">Linkedin</a></li>
           </ul>
         </section>
         <section className="formulario">
           <h2>Envie sua mensagem</h2>
-          <form name="contato">
+          <form method="POST" action="/." name="contato"> 
             <label htmlFor="nome">Nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome aqui"/>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required/>
 
-            <label htmlFor="tel">Telefone</label>
-            <input type="tel" id="tel" placeholder="Digite seu telefone"/>
+            <label htmlFor="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone"/>
 
             <label htmlFor="email">E-mail</label>
-            <input type="email"id="email" placeholder="Digite seu e-mail"/>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required/>
 
-            <label htmlFor="message">Mensagem</label>
-            <textarea id="message" cols="30" rows="5"></textarea>
+            <label htmlFor="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
             <button type="enviar" className="btn">Enviar</button>
           </form>
         </section>
