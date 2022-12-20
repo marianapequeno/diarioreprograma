@@ -26,7 +26,7 @@ Página SPA (Single Page Application) com todos as atividades desenvolvidas dura
 
 ## Arquitetura: 
 ```
- 📁 projeto-guiado
+ 📁 diarioreprograma
    |- 📁 src
    |     |- 📁 assets
    |     |- 📁 components
