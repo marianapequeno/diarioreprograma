@@ -1,8 +1,8 @@
-# Atividade Meu Portfólio da Reprograma - Semana 16 React III
+# Diário Reprograma
 
-Atividade feita no curso da Reprograma para exercitar React JS <a href="https://pt-br.reactjs.org/"><img align="center" alt="Logo-React" height="20" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
+Página SPA (Single Page Application) com todos as atividades desenvolvidas durante o bootcamp. [Veja esse projeto](https://diarioreprograma.netlify.app/) :point_left: :writing_hand: :woman_technologist: :open_book:
 
-### Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 <div>
   <a href="https://pt-br.reactjs.org/"><img align="center" alt="Logo-React" height="20" width="30"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></a>
   <a href="https://git-scm.com/"><img align="center" alt="Logo do Git" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" /></a>
@@ -24,35 +24,7 @@ Atividade feita no curso da Reprograma para exercitar React JS <a href="https://
 | `Google fonts` | Fonte|
 | `undraw` | Banco de ilustrações grátis|
 
-### Revisão:
-* Como preparar o ambiente e criar o projeto React com vite
-* Componentes: O que são
-* Props
-* Eventos
-* Estados
-* Listas e Chaves (key-id)
-* React Hooks (useState e useEffect)
-* Consumir API em React
-* Prática usando todos os conceitos aprendidos na aula
-
-### Conceitos aprendidos:
-* Introdução ao Roadmap React + Próximos passos
-* Rotas - React Router
-* Projeto guiado do zero ao deploy
-
-### Desafio da semana:
-<a href="https://projectreacfinal.netlify.app/">Projeto final React</a> :point_left: :writing_hand: :woman_technologist: :open_book:
-* Criar organização das pastas
-* Criar rotas
-* Criar Menu
-* Criar Header
-* Criar páginas
-* Comentários usando localStorage
-* Subir no netlify e incluir a configuração de redirects
-* Criar e incluir footer
-* Criar e inclir páginas: Sobre, Diário da reprograma e Contato
-* Arquitetura: 
-
+## Arquitetura: 
 ```
  📁 projeto-guiado
    |- 📁 src
@@ -75,3 +47,32 @@ Atividade feita no curso da Reprograma para exercitar React JS <a href="https://
    |- 📄 package.json  
    |- 📄 package-lock.json
 ```
+
+## Conteúdos aprendidos na Semana 16, React III do bootcamp:
+
+### Revisão:
+* Como preparar o ambiente e criar o projeto React com vite
+* Componentes: O que são
+* Props
+* Eventos
+* Estados
+* Listas e Chaves (key-id)
+* React Hooks (useState e useEffect)
+* Consumir API em React
+* Prática usando todos os conceitos aprendidos na aula
+
+### Novo conteúdo da semana:
+* Introdução ao Roadmap React + Próximos passos
+* Rotas - React Router
+* Projeto guiado do zero ao deploy
+
+### Desafio da semana:
+* Criar organização das pastas
+* Criar rotas
+* Criar Menu
+* Criar Header
+* Criar páginas
+* Comentários usando localStorage
+* Subir no netlify e incluir a configuração de redirects
+* Criar e incluir footer
+* Criar e inclir páginas: Sobre, Diário da reprograma e Contato
