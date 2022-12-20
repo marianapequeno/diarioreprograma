@@ -15,12 +15,9 @@ function Sobre() {
         {/* <img src={meme} alt="/> */}
         <section className="container-text">
           <h2 className="title-2">Prazer, Mariana</h2>
-          <p className="paragraph">Eu sou Mariana, estudante e tenho dois gatos, o Milk e a Pandora. Nascida e moro em São Paulo.</p>
+          <p className="paragraph">Eu sou Mariana, nasci e cresci em São Paulo, onde moro até hoje.</p>
           <p className="paragraph">
-            Aluna da Reprograma da turma front-end e tentando a transição de carreira.
-          </p>
-          <p className="paragraph">
-            Cursei administração de empresas mas me interessei por programação. Estudo desenvolvimento web, lógica de programação, Git, GitHub, HTML5, CSS3, JavaScript e React JS. Sou curiosa, questionadora e gosto de aprender.
+            Cursei administração de empresas mas me interessei por programação. Sou curiosa e questionadora.
           </p>
         </section>
       </main>
