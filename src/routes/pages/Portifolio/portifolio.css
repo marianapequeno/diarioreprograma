@@ -43,14 +43,11 @@ h2 a:hover{
   width: 200px;
   padding: 10px;
   transition: filter 0.2s;
+  align-self: flex-end;
 }
 
 .cartao p, .cartao-other p{
   text-align: center;
-}
-
-.cartao-other a{
-  align-self: flex-end;
 }
 
 .cartao a:hover, .cartao-other a:hover{

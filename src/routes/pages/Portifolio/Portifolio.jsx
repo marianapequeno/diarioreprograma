@@ -39,18 +39,19 @@ function Portifolio() {
             })
           }
         </section>
-        <h2>Outros repositórios</h2>
+        <h2>Todos os repositórios com atividades da Reprograma</h2>
         <section className="cartao-container">
           {
             repos.map(repo => {
+              // console.log()
+            if(repo.topics.includes("reprograma")) {
               return(
                 <div className="cartao-other" key={repo.id}>
-                  {console.log(repo)}
                   <h3>{repo.name.replace(/-/g,' ').replace(/_/g, ' ')}</h3>
                   <p>{repo.description}</p>
                   <a href={repo.html_url} target="_blank">Veja esse repositório</a>
                 </div>
-              )
+              )}
             })
           }
         </section>
